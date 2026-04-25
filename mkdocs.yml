@@ -1,0 +1,103 @@
+site_name: VS:RP — База знаний
+site_description: Документация VS:RP для игроков и саппорта
+site_url: https://vs-rp.github.io/player-docs/
+repo_url: https://github.com/VS-RP/player-docs
+repo_name: VS-RP/player-docs
+edit_uri: edit/master/docs/
+docs_dir: docs
+copyright: VS:RP
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Ссылка на раздел
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search:
+      lang:
+        - ru
+        - en
+
+nav:
+  - Главная: index.md
+  - Гайды:
+      - События: events-guide.md
+  - Игрокам:
+      - Первые шаги: player/getting-started.md
+      - Команды: player/commands.md
+      - Персонаж: player/character.md
+      - Инвентарь и предметы: player/inventory.md
+      - Деньги и работа: player/economy.md
+      - Биржа и акции: player/stocks.md
+      - Недвижимость: player/property.md
+      - Транспорт: player/transport.md
+      - Фракции: player/fractions.md
+      - Задания: player/quests.md
+      - Ролевая игра: player/roleplay.md
+      - Зоны и территории: player/zones.md
+      - Социальные механики: player/social.md
+      - Мир и локации: player/world.md
+  - Саппорту:
+      - Введение: support/overview.md
+      - Частые вопросы: support/common-issues.md
+      - Инструменты администратора: support/admin-tools.md
