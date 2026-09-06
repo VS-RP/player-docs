@@ -54,6 +54,7 @@ markdown_extensions:
   - toc:
       permalink: true
       permalink_title: Ссылка на раздел
+      slugify: !!python/name:pymdownx.slugs.slugify
   - pymdownx.betterem
   - pymdownx.caret
   - pymdownx.details
@@ -88,6 +89,7 @@ nav:
       - Персонаж: player/character.md
       - Инвентарь и предметы: player/inventory.md
       - Деньги и работа: player/economy.md
+      - Промышленность и ресурсы: player/industry.md
       - Биржа и акции: player/stocks.md
       - Недвижимость: player/property.md
       - Транспорт: player/transport.md
