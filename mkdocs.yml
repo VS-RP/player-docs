@@ -54,7 +54,9 @@ markdown_extensions:
   - toc:
       permalink: true
       permalink_title: Ссылка на раздел
-      slugify: !!python/name:pymdownx.slugs.slugify
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.betterem
   - pymdownx.caret
   - pymdownx.details
