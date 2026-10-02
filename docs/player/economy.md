@@ -82,7 +82,7 @@
 |-----|------------|
 | Супермаркет (24/7, Supa Save и т.п.) | Еда, напитки, мелочёвка |
 | Cluckin' Bell / Burger Shot / Well Stacked Pizza | Фастфуд |
-| Бары (Alhambra, обычные, Liberty, Jizzy) | Алкоголь |
+| Бары и стрип-клубы (Alhambra, обычные, Liberty, Jizzy, The Pig Pen) | Алкоголь |
 | Ammu-Nation | Оружие (при наличии лицензии) |
 | Магазины одежды (Didier Sachs, ProLaps, ZIP, Sub Urban, Victim, Binco) | Одежда и аксессуары |
 | Вендинговые автоматы (Sprunk, хотдоги, лапша) | Быстрые перекусы, напитки |
